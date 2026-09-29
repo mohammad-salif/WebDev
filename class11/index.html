@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    h2::before {
+        content:"New";
+        font-size: 1rem;
+        color:lightcoral;
+    }
+    p::after{
+        content:"Read more";
+        color:blue;
+        text-decoration: underline;
+    }
+    ul{
+        list-style: none;
+    }
+    li::before{
+        content: "+";
+        padding-right:1rem;
+    }
+</style>
+<body>
+    <h1>latest article</h1>
+    <article class="new">
+    <h2>how to create stunning css effects</h2>
+    <p>css allows you to create amazing visual effects</p>
+    </article>
+    
+    <article class="new">
+        <h2>improving web performance with lazy loading</h2>
+        <p>lazy laoding is an affective technique for </p>
+
+    </article>
+    <article>
+        <h2>mastering css psuedo-elements</h2>
+        <p>learn how to use css psuedo-elements to enhance the visual effects</p>
+
+    </article>
+    <blockquote>
+        design is not just what it looks and feels like.
+        design is how it works.
+    </blockquote>
+    <ul>
+        <li>first thing</li>
+        <li>second thing</li>
+        <li>third thing</li>
+    </ul>
+    
+</body>
+</html>
