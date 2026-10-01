@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root {
+            --primary: blue;
+            --primary-dark:blue;
+            --text:red;
+            --radius:8px;
+            --spacing:10px;
+            --fonts:sans-serif;
+        }
+        body{
+            font-family:var(--fonts);
+            color:var(--text);
+            padding: var(--spacing);
+        }
+        button{
+            background-color: var(--primary);
+            color:var(--text);
+            padding:var(--spacing);
+            border-radius:var(--radius);
+            border:none;
+            cursor:pointer;
+
+        }
+
+        button:hover {
+            background-color: var(--primary-dark);
+
+        }
+        .card{
+            border:2px solid var(--primary);
+            border-radius: var(--radius);
+            padding:var(--spacing);
+            margin-top:var(--spacing);
+        }
+    </style>
+</head>
+<body>
+    <button>click me</button>
+    <div class="card">
+        <h2>card title</h2>
+        <p>this card uses the same variable as the button</p>
+    </div>
+
+    
+</body>
+</html>

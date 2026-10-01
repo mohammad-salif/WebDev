@@ -2,6 +2,8 @@ html{
     margin:0;
     padding:0;
     box-sizing: border-box;
+    position:relative;
+    top:0px;
 }
 body{
     margin:0;
@@ -23,7 +25,7 @@ header h1{
     text-align: left;
     padding-left:250px;
     font-size: 60px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:"Lexend Deca", sans-serif;
 }
 header h2{
     padding-left:250px;
@@ -35,11 +37,12 @@ header h2{
 header p{
     padding-left:250px;
     font-size:30px;
+    font-family: "Lexend Deca", sans-serif;
 }
 header button{
     text-align: center;
     margin-left:250px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Lexend Deca", sans-serif;
     font-size: 25px;
     padding:10px;
     border-radius: 10px;
