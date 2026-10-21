@@ -11,28 +11,47 @@ html{
 scroll-behavior: smooth;
 }
 
+
 header{
      color:whitesmoke;
      text-align:left;
      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
      background-color: rgb(5, 7, 8);
      padding:20px;
+     position:fixed;
+     width:100%;
+     top:0;
         }
-#about{
+
+        #about{
             color:rgb(255, 255, 255);
             font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin:200px;
         }
-#highlight{
+
+        #highlight{
     text-align:center;
 
     }
-button{
+
+    button{
             font-size:30px;
             border-radius:10px;
             margin:30px;
+           
         }
-#project{
+         button:hover{
+                background-color:rgb(241, 134, 134);
+            }
+            button:active{
+                background-color:snow;
+            }
+            button:visited{
+                background-color:skyblue;
+            }
+
+
+            #project{
     color:white;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding:30px;
@@ -41,7 +60,8 @@ button{
     justify-content: space-between;
     align-items: center;
         }
-#contact{
+
+        #contact{
          font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
          color:white;
          margin:80px;
