@@ -1,45 +1,167 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+
     <link rel="stylesheet" href="./style.css">
+</head>
+
 <body>
+
     <header>
-        <h2>My PortFolio</h2>
-        <nav>
-            <a href="#home" style="color:white">Home</a>
-            <a href="#about" style="color:white;">About</a>
-            <a href="#project" style="color:white;">Project</a>
-            <a href="#contact" style="color:white;">Contact</a>
-            
+        <nav class="navhead">
+            <div class="navbar">My Portfolio</div>
+
+            <div class="navlink">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#Skills">Skills</a>
+                <a href="#contact">Contact</a>
+            </div>
         </nav>
     </header>
-    <main>
-        <section id="about">
-            <h1>Hi I'm Mohammad Salif</h1><br/>
-            <p>A frontend developer exploring the world of design and open source.</p><p> Turning ideas into interactive, user-friendly web application</p><span class="highlight"><img src="" width="300px" height="300px"></span><br>
-            <button class="project" >View my work</button><br/><br/><br/>
+
+    <main class="mb">
+        <section id="home">
+
+            <div id="dis">
+                <h1 class="txt">
+                    Hi, I'm <span style="color: rgb(37, 35, 34);">Unknown</span>!
+                </h1>
+
+                <p class="txt">
+                    A frontend developer exploring the world of design
+                    and open-source.
+                    <br>
+                    Turning ideas into interactive, user-friendly web applications.
+                </p>
+            </div>
+
+            <p id="userimg">
+                <img src="https://i.pinimg.com/1200x/68/0e/24/680e241336ae8d3a57a42f54b656e58f.jpg" alt="Profile image">
+            </p>
+
+            <button id="btn" type="button"
+                onclick="document.getElementById('projects').scrollIntoView({behavior: 'smooth'})">
+                Verify My Work
+            </button>
+
         </section>
-        <section id="project">
-            <h2 class="heading">My projects</h2><br/>
-           <div class="h1"><h3>web development</h3>
-            <img src="" width="300px" height="300px"></div>
-           <div class="h2"><h3>app developement</h3>
-            <img src="" width="300px" height="300px"></div>
-           <div class="h3"><h3>templates/ppts</h3>
-            <img src="" width="300px" height="300px"></div>
-        </section><br><br>
+
+        <hr>
+
+        <div class="info">
+            <section id="about">
+                <h2>About Me</h2>
+
+                <p>
+                    I am a passionate frontend developer with experience
+                    in creating responsive and user-friendly web applications.
+                    I specialize in HTML, CSS, and JavaScript.
+                </p>
+
+                <div class="stats">
+                    <div class="stats-items">
+                        <h3>20+</h3>
+                        <p>Project Completed</p>
+                    </div>
+                    <div class="stats-items">
+                        <h3>4+</h3>
+                        <p>Years of Experience</p>
+                    </div>
+                    <div class="stats-items">
+                        <h3>10+</h3>
+                        <p>Technologies Mastered</p>
+                    </div>
+                </div>
+            </section>
+
+            <hr>
+            <section id="projects">
+                <h2>Projects</h2>
+
+                <ul>
+                    <li>Project 1: Portfolio Website</li>
+                    <li>Project 2: E-commerce Platform</li>
+                    <li>Project 3: Blogging Application</li>
+                </ul>
+            </section>
+
+            <hr>
+
+            <section id="Skills">
+                <h2 id="section title">Skills</h2>
+
+                <div class="container">
+
+                    <div class="skills-cont">
+                        <div class="Skill-item">
+                            <span>HTML &amp; CSS</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="Skill-bar">
+                            <div class="progress-bar html-css"></div>
+                        </div>
+                    </div>
+
+                    <div class="skills-cont">
+                        <div class="Skill-item">
+                            <span>JavaScript</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="Skill-bar">
+                            <div class="progress-bar javascript"></div>
+                        </div>
+                    </div>
+
+                    <div class="skills-cont">
+                        <div class="Skill-item">
+                            <span>Frontend Development</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="Skill-bar">
+                            <div class="progress-bar frontend"></div>
+                        </div>
+                    </div>
+
+                    <div class="skills-cont">
+                        <div class="Skill-item">
+                            <span>Responsive Design</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="Skill-bar">
+                            <div class="progress-bar responsive"></div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <hr>
+            <section id="contact">
+                <h2>Contact</h2>
+
+                <p>
+                    Email:
+                    <a href="mailto:testunkown@gmail.com" style="color: rgb(246, 246, 244);">
+                        testunkown@gmail.com
+                    </a>
+                </p>
+
+                <p>Phone: +1234567890</p>
+            </section>
+
+        </div>
     </main>
+
     <footer>
-        <section id="contact">
-            <h2>contact</h2>
-            <a href="mailto:mohammadsalif22@gmail.com" style="color:whitesmoke">Mail</a>
-            <a href="tel:7340323625" style="color:whitesmoke">Contact number</a>
-            <a href="https://Instagram.com/" style="color:whitesmoke">instagram</a>
-        </section>
+        <p>&copy; 2026 Unknown. All rights reserved.</p>
     </footer>
 
 </body>
+
 </html>
